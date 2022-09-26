@@ -1,0 +1,49 @@
+.ImgLenguajes{
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.logoEstudios{
+    height: auto;
+    height: 150px;
+    margin-top: 100px;
+    
+}
+
+
+.certificado{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ano{
+    color: #159A9C;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+.imgPortafolio{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.ImgPortafolio{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
