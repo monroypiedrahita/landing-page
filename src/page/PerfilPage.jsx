@@ -100,6 +100,7 @@ export const PerfilPage = () => {
             justifyContent: "space-around",
             alignItems: "center",
             marginTop: 10,
+            height: 800,
           
             
           }}

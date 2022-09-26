@@ -2,7 +2,7 @@ import { Container } from "@mui/system";
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { Avatar, } from "@mui/material";
+import { Avatar, Box, } from "@mui/material";
 
 export const InicioPage = () => {
   return (
@@ -37,6 +37,7 @@ export const InicioPage = () => {
           <Typography
             variant="h1"
             sx={{
+              paddingTop: 10,
               frontFamily: "Roboto",
               fontWeight: "bold",
               color: "error.main",
@@ -59,8 +60,8 @@ export const InicioPage = () => {
           <Avatar
             alt="juanpiedrahita"
             sx={{
-              width: "80%",
-              height: "80%",
+              width: "70%",
+              height: "70%",
               boxShadow: "-20px -10px 10px rgba(0, 0, 0, 0.5)",
             }}
           
@@ -74,30 +75,37 @@ export const InicioPage = () => {
               <Grid sx={{
                 mt: 10,
               }} container>
-                <Typography
-                  sx={{
-                    color: "tercero.main",
-                    fontWeight: "bold",
-                    fontSize: 50,
-                    textShadow: "5px 5px 5px rgba(0, 0, 0, 0.5)",
-                    width: "100%",
-                    marginBottom: "10px",
-                    marginTop: "10px",
-                  }}
-                >
-                  Bienvenido a Landing Page
-                </Typography>
-                <Typography
-                  sx={{
-                    
-                    color: "primero.main",
-                    fontSize: 50,
-                    paddingX: "20px",
-                    paddingY: "20px",
-                  }}
-                >
-                  Soy Desarrollador FrontEnd con buena actitud y comprometido con mi trabajo
-                </Typography>
+                <Box sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  mt: 20,
+                  
+                }}>
+                  <Typography
+                    sx={{
+                      color: "tercero.main",
+                      fontWeight: "bold",
+                      fontSize: 50,
+                      textShadow: "5px 5px 5px rgba(0, 0, 0, 0.5)",
+                      width: "100%",
+                      marginBottom: "10px",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Bienvenido a Landing Page
+                  </Typography>
+                  <Typography
+                    sx={{
+                      
+                      color: "primero.main",
+                      fontSize: 40,
+                      paddingX: "20px",
+                      paddingY: "20px",
+                    }}
+                  >
+                    Soy Desarrollador FrontEnd con buena actitud y comprometido con mi trabajo
+                  </Typography>
+                </Box>
               </Grid>
             </Grid>
           </Grid>
