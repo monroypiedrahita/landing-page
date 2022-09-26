@@ -39,7 +39,7 @@ export const EstudiosPage = () => {
             <div>
               <img
                 className="logoEstudios"
-                src="https://www.utp.edu.co/assets/img/escudos/identificador60.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_U.T.P.png/1200px-Logo_U.T.P.png"
                 alt="UTP"
               />
             </div>
@@ -79,11 +79,15 @@ export const EstudiosPage = () => {
           <Grid item>
             <Grid item>
               <div>
+                <a href="https://colombia.marialuisa.foundation">
                 <img
                   className="logoEstudios"
                   src="https://i1.wp.com/colombia.marialuisa.foundation/wp-content/uploads/sites/19/2020/11/favicon-fimlm.png?fit=512%2C512&ssl=1"
                   alt="FIMLM"
+                  href="https://colombia.marialuisa.foundation/"
                 />
+                </a>
+                
               </div>
               <div>
                 <h1 className="certificado">Diplomado en React</h1>

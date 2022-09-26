@@ -2,7 +2,7 @@ import { Container } from "@mui/system";
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { Avatar, Box } from "@mui/material";
+import { Avatar, } from "@mui/material";
 
 export const InicioPage = () => {
   return (
@@ -11,8 +11,16 @@ export const InicioPage = () => {
         paddingTop: 10,
         paddingBottom: 5,
         background: "linear-gradient(to right bottom, #002333, #FFF)",
+        
+      }}
+      xs={{
+        paddingTop: 10,
+        paddingBottom: 5,
+        background: "linear-gradient(to right bottom, #002333, #FFF)",
+        
       }}
       maxWidth="full"
+      
     >
       <Grid container>
         <Grid
@@ -51,15 +59,11 @@ export const InicioPage = () => {
           <Avatar
             alt="juanpiedrahita"
             sx={{
-              width: 450,
-              height: 450,
+              width: "80%",
+              height: "80%",
               boxShadow: "-20px -10px 10px rgba(0, 0, 0, 0.5)",
             }}
-            xs={{
-              width: 250,
-              height: 250,
-              boxShadow: "-20px -10px 10px rgba(0, 0, 0, 0.5)",
-            }}
+          
             src="https://media-exp1.licdn.com/dms/image/C4D03AQHRJKifxfN4ow/profile-displayphoto-shrink_800_800/0/1623386834461?e=1669248000&v=beta&t=HiDJcQUZ99FJNJfN6QEUIw3rSjYFkIqLIFbUvdRBP80"
           />
         </Grid>
@@ -93,7 +97,6 @@ export const InicioPage = () => {
                   }}
                 >
                   Soy Desarrollador FrontEnd con buena actitud y comprometido con mi trabajo
-                  eventos
                 </Typography>
               </Grid>
             </Grid>

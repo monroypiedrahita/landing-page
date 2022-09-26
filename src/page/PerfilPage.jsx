@@ -49,7 +49,7 @@ export const PerfilPage = () => {
             <Typography
               sx={{
                 padding: 10,
-                fontSize: 30,
+                fontSize: 20,
                 backgroundColor: "primero.main",
                 color: "error.main",
                 borderRadius: "10px",

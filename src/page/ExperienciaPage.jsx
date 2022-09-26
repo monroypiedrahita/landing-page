@@ -45,7 +45,7 @@ export const ExperienciaPage = () => {
                 borderTopLeftRadius: 15,
                 borderTopRightRadius: 15,
                 textAlign: "center",
-                width: 500,
+                width: "80%",
                 fontSize: 30,
               }}
             >
@@ -53,7 +53,7 @@ export const ExperienciaPage = () => {
             </Typography>
             <Typography
               sx={{
-                width: 500,
+                width: "80%",
                 boxShadow: 10,
                 fontSize: 20,
                 borderBottomRightRadius: 15,
@@ -89,7 +89,7 @@ export const ExperienciaPage = () => {
                 borderTopLeftRadius: 15,
                 borderTopRightRadius: 15,
                 textAlign: "center",
-                width: 500,
+                width: "80%",
                 fontSize: 30,
               }}
             >
@@ -97,7 +97,7 @@ export const ExperienciaPage = () => {
             </Typography>
             <Typography
               sx={{
-                width: 500,
+                width: "80%",
                 boxShadow: 10,
                 fontSize: 20,
                 borderBottomRightRadius: 15,
@@ -131,7 +131,7 @@ export const ExperienciaPage = () => {
                 borderTopLeftRadius: 15,
                 borderTopRightRadius: 15,
                 textAlign: "center",
-                width: 500,
+                width: "80%",
                 fontSize: 30,
               }}
             >
@@ -139,12 +139,13 @@ export const ExperienciaPage = () => {
             </Typography>
             <Typography
               sx={{
-                width: 500,
+                width: "80%",
                 boxShadow: 10,
                 fontSize: 20,
                 borderBottomRightRadius: 15,
                 borderBottomLeftRadius: 15,
               }}
+            
             >
               Febrero/2018 - Diciembre/2018
             </Typography>

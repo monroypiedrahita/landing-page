@@ -36,6 +36,7 @@ export const PortafolioPage = () => {
               rowSpacing={2}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
             >
+              
               <Grid item md={6} xs={12}>
                 <img
                   className="ImgPortafolio"
@@ -53,7 +54,7 @@ export const PortafolioPage = () => {
                 <Typography
                 sx={{
                   color: 'primero.main',
-                  fontSize: 50,
+                 
                   fontWeight: 'bold',
                 }}>{proyecto.nombre}
                 </Typography>
@@ -75,7 +76,7 @@ export const PortafolioPage = () => {
                 <Button sx={{
                   borderRadius: 5,
                   fontSize: 25,
-                  width: 300,
+                  width: "80%",
                 }}
                 size="large"
                 variant="contained"
